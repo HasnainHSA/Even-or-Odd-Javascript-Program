@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: url("https://res.cloudinary.com/finnhvman/image/upload/v1541930411/pattern.png");
+  }
+
+  .maincon {
+    position: relative;
+    border-radius: 8px;
+    padding: 16px 48px;
+    box-shadow: 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    overflow: hidden;
+    background-color: white;
+  }
+
+  h1 {
+    margin: 32px 0;
+    font-weight: normal;
+    text-align: center;
+  }
+
+  .head1{
+    font-weight: 800;
+    color: rgb(23, 58, 212);
+  }
+
+  .head2{
+    font-weight: 800;
+    color: rgb(212, 190, 23);
+  }
+
+  .container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  input {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    padding: 20px 30px;
+    border: 1px solid black; 
+    border-radius: 5px;
+    border: none;       
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    outline: 2px solid rgb(253, 253, 9);
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .result {
+    margin: 10px 0px;
+    font-size: 25px;
+    color: #5b42f3;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 3px;
+    line-height: 40px;
+  }
+
+  /* CSS */
+  .button-63 {
+    align-items: center;
+    background-image: linear-gradient(
+      144deg,
+      #40b6ff,
+      #0018eb,
+      #5142f3
+    );
+    border: 0;
+    border-radius: 8px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    box-sizing: border-box;
+    color: #ffffff;
+    display: flex;
+    font-family: Phantomsans, sans-serif;
+    font-size: 20px;
+    justify-content: center;
+    line-height: 1em;
+    max-width: 100%;
+    min-width: 140px;
+    padding: 19px 24px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+  }
+
+  .button-63:active,
+  .button-63:hover {
+    outline: 0;
+  }
+
+  @media (min-width: 768px) {
+    .button-63 {
+      font-size: 24px;
+      min-width: 196px;
+    }
+  }
