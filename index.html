@@ -16,4 +16,19 @@
       </div>
     </div>
   </body>
+
+  <script>
+    const checkNumber = () => {
+      var number = document.getElementById("number").value;
+      if (number % 2 == 0) {
+        document.querySelector(
+          ".result"
+        ).innerHTML = ` your number ${number} <br> is even number`;
+      } else {
+        document.querySelector(
+          ".result"
+        ).innerHTML = ` your number ${number}  <br> is odd number`;
+      }
+    };
+  </script>
 </html>
